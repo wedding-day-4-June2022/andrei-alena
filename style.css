@@ -141,8 +141,7 @@ h1{
 }
 .namesWho {
     font-size: 40px;
-    font-family: 'Cormorant';
-    /* font-style: italic; */
+    font-style: 'Alice';
 }
 /* ////// */
 .programm {
@@ -322,7 +321,7 @@ display: flex;
     bottom: -460px;
 }
 .afterInst {
-    margin: 246px 0px -20px 0px;
+    margin: 187px 0px -20px 0px;
 }
 .agry {
     margin: 90px 0px -50px 0px;
@@ -359,6 +358,9 @@ display: flex;
         padding-bottom: 30px;
         width: 80%;
         margin: 0 auto;
+    }
+    .afterInst {
+        margin: 265px 0px -20px 0px;
     }
 }
 /* $breakpoint-xl: 1200px;
@@ -520,18 +522,31 @@ $breakpoint-mobile: 425px; */
     }
  
 }
-
+@media (max-width : 700px) {
+    .names img {
+        width: 600px;
+    }
+}
 @media (max-width : 550px) {
-    .names {
-        top: 20%;
+    .names img {
+        width: 500px;
     }
     .main-hash {
     width: 80%;
+    }
 }
+@media (max-width : 450px) {
+    .names img {
+        width: 450px;
+    }
+    .main-hash {
+    width: 80%;
+    }
 }
+
 @media (max-width : 400px) {
-    .names {
-        top: 10%;
+    .names img {
+        width: 400px;
     }
     .leftBottomFon {
         width: 200px;
